@@ -20,33 +20,35 @@
                 <button type="submit"> Calcular </button>
             </form>
 
-            <!-- Aqui E sem fechar -->
             <?php
-
                 /* $peso = 70;
                 $altura = 1.70; */
-                $peso = $_GET['peso'];
-                $altura = $_GET['altura'];
-                
-                $imc =  $peso / ($altura * $altura) ;
 
-                echo "<div class='resultado'>Seu IMC é: " . $imc . "</div>";
+                if($_GET){
 
-                echo "<div class='conceito'>";
-                    if($imc >= 40 ){
-                        echo 'Obesidade Grau 3';
-                    }elseif($imc >= 35){
-                        echo 'Obesidade Grau 2';
-                    }elseif($imc >= 30){
-                        echo 'Obesidade Grau 1';
-                    }elseif($imc >= 25){
-                        echo 'Excesso de Peso';
-                    }elseif($imc >= 18.5){
-                        echo 'Normal';
-                    }else{
-                        echo 'Baixo Peso';
-                    }
-                echo "</div>";
+                    $peso = $_GET['peso'];
+                    $altura = $_GET['altura'];
+                    
+                    $imc =  $peso / ($altura * $altura) ;
+    
+                    echo "<div class='resultado'>Seu IMC é: " . $imc . "</div>";
+    
+                    echo "<div class='conceito'>";
+                        if($imc >= 40 ){
+                            echo 'Obesidade Grau 3';
+                        }elseif($imc >= 35){
+                            echo 'Obesidade Grau 2';
+                        }elseif($imc >= 30){
+                            echo 'Obesidade Grau 1';
+                        }elseif($imc >= 25){
+                            echo 'Excesso de Peso';
+                        }elseif($imc >= 18.5){
+                            echo 'Normal';
+                        }else{
+                            echo 'Baixo Peso';
+                        }
+                    echo "</div>";
+                }
 
             ?>
         </div> <!-- Final .form-container -->

@@ -7,6 +7,7 @@ body {
     height: 100vh;
     margin: 0;
 }
+
 .form-container {
     background-color: white;
     padding: 20px;
@@ -15,9 +16,11 @@ body {
     width: 300px;
     text-align: center;
 }
+
 h1 {
     color: #5bbd5e;
 }
+
 input[type="number"] {
     width: 80%;
     padding: 10px;
@@ -25,8 +28,9 @@ input[type="number"] {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
 button {
-    background-color: #4CAF50;
+    background-color: #55b358;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -34,16 +38,51 @@ button {
     cursor: pointer;
     font-size: 16px;
 }
+
 button:hover {
     background-color: #45a049;
 }
+
 .resultado {
-    margin-top: 20px;
+    margin-top: 30px;
     font-size: 18px;
-    color: #333;
+    color: #292929;
 }
+
 .conceito {
     margin-top: 10px;
     font-size: 16px;
-    color: #555;
+    font-weight: 700;
+    height: 1.5rem;
+    padding: 8px 8px;
+}
+
+.grau3 {
+    background-color: #ff100b;
+    color: rgb(0, 0, 0);
+}
+
+.grau2 {
+    background-color: #db2929;
+    color: #000000;
+}
+
+.grau1 {
+    background-color: #ff3434;
+    color: #000000;
+}
+
+.excesso {
+    background-color: #ff7505;
+    color: #000000;
+}
+
+.normal {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.baixoPeso {
+    background-color: #f5ea59;
+    color: #000000;
 }

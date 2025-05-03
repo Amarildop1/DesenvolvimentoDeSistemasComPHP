@@ -29,7 +29,7 @@
                     
                     $imc =  $peso / ($altura * $altura) ;
     
-                    echo "<div class='resultado'>Seu IMC é: " . $imc . "</div>";
+                    echo "<div class='resultado'>Seu IMC é: " . number_format($imc, 2, ',') . "</div>";
     
                     $classe = '';
                     $conceito = '';

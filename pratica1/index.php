@@ -61,7 +61,10 @@
             ?>
         </div> <!-- Final .form-container -->
 
-        
+
+        <footer>
+            <p> &copy; 2025 - Amarildo </p>
+        </footer>
     </body>
 </html>
 

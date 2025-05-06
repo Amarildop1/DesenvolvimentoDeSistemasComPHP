@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -30,7 +31,7 @@ input[type="number"] {
 }
 
 button {
-    background-color: #55b358;
+    background-color: #4bb64f;
     color: white;
     padding: 10px 20px;
     border: none;
@@ -78,7 +79,7 @@ button:hover {
 }
 
 .normal {
-    background-color: #4CAF50;
+    background-color: #74bd77;
     color: white;
 }
 
@@ -86,3 +87,8 @@ button:hover {
     background-color: #f5ea59;
     color: #000000;
 }
+
+footer{
+    margin-top: 1.5rem;
+}
+

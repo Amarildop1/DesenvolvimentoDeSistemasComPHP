@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     min-height: 100vh;
+    flex-direction: column;
 }
 
 .calendario-container {
@@ -68,5 +69,20 @@ td:empty {
 .feriado, .feriado:hover {
     background-color: #61abff;
     font-weight: bold;
+}
+
+.menu{
+    margin-top: 10px;
+    width: 100vw;
+    height: 2rem;
+    display: flex;
+    justify-content: center;
+    color: #5A5FE0;
+    font-weight: 700;
+    font-size: larger;
+}
+
+form{
+    border-bottom: 2px solid black;
 }
 

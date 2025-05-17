@@ -86,3 +86,11 @@ form{
     border-bottom: 2px solid black;
 }
 
+
+footer{
+    width: 100vw;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 700;
+}
+

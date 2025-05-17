@@ -2,5 +2,5 @@
 
 <br>
 
-<img src="./Calendário2025.jpeg">
+<img src="./Calendario2025.jpeg">
 

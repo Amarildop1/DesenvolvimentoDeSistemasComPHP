@@ -13,48 +13,49 @@ $produtos = [
 
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <title>Produtos</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <h1>Produtos</h1>
-        <nav>
-            <a href="index.php">Início</a>
-            <a href="produtos.php">Produtos</a>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <title>Produtos</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <main>
-        <section class="produtos">
-            <?php
-            $sql = "SELECT * FROM produtos";
-            $result = $conn->query($sql);
+    <body>
+        <header>
+            <h1>Produtos</h1>
+            <nav>
+                <a href="index.php">Início</a>
+                <a href="produtos.php">Produtos</a>
+            </nav>
+        </header>
 
-            if ($result->num_rows > 0):
-                while ($row = $result->fetch_assoc()):
-            ?>
-                <div class="produto">
-                    <img src="imagens/<?= $row['imagem'] ?>" alt="<?= $row['nome'] ?>">
-                    <h3><?= $row['nome'] ?></h3>
-                    <p>R$ <?= number_format($row['preco'], 2, ',', '.') ?></p>
-                    <a href="fazer_pedido.php?id=<?= $row['id'] ?>" class="botao">Fazer Pedido</a>
-                </div>
-            <?php
-                endwhile;
-            else:
-                echo "<p>Nenhum produto cadastrado.</p>";
-            endif;
+        <main>
+            <section class="produtos">
+                <?php
+                $sql = "SELECT * FROM produtos";
+                $result = $conn->query($sql);
 
-            $conn->close();
-            ?>
-        </section>
-    </main>
+                if ($result->num_rows > 0):
+                    while ($row = $result->fetch_assoc()):
+                ?>
+                    <div class="produto">
+                        <img src="imagens/<?= $row['imagem'] ?>" alt="<?= $row['nome'] ?>">
+                        <h3> <?= $row['nome'] ?> </h3>
+                        <p> R$ <?= number_format($row['preco'], 2, ',', '.') ?> </p>
+                        <a href="fazer_pedido.php?id=<?= $row['id'] ?> " class="botao"> Fazer Pedido </a>
+                    </div>
+                <?php
+                    endwhile;
+                else:
+                    echo "<p>Nenhum produto cadastrado.</p>";
+                endif;
 
-    <footer>
-        <p>&copy; 2025 Cantina Italiana</p>
-    </footer>
-</body>
+                $conn->close();
+                ?>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2025 Cantina Italiana </p>
+        </footer>
+    </body>
 </html>

@@ -91,3 +91,9 @@ input, button {
     padding: 8px;
     margin-top: 10px;
 }
+
+.imagemDoPedido img{
+    width: 15rem;
+    border-radius: 10px;
+}
+

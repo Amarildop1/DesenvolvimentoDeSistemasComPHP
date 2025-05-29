@@ -10,9 +10,11 @@ CREATE TABLE produtos (
 );
 
 INSERT INTO produtos (nome, preco, imagem) VALUES
-    ('Lasanha à Bolonhesa', 45.00, 'lasanha.png'),
-    ('Spaghetti ao Pesto', 36.50, 'spaghetti.jpg'),
-    ('Tiramisu Tradicional', 22.00, 'tiramisu.jpg');
+    ('Lasanha à Bolonhesa', 45.00, 'LasanhaBolonhesa.png'),
+    ('Spaghetti ao Pesto', 36.50, 'Spaghetti.png'),
+    ('Ravioli', 25.00, 'Ravioli.png'),
+    ('Tiramisu Tradicional', 30.00, 'Tiramisu.png'),
+    ('Molho Pomodoro', 15.00, 'MolhoPomodoro.png');
 
 CREATE TABLE pedidos (
     id INT AUTO_INCREMENT PRIMARY KEY,

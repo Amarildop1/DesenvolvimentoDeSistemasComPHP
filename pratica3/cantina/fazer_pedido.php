@@ -35,7 +35,7 @@
                 <label>Quantidade:</label>
                 <input type="number" name="quantidade" value="1" min="1"><br>
 
-                <button type="submit">Confirmar Pedido</button>
+                <button type="submit" class="confirmar-pedido">Confirmar Pedido</button>
             </form>
 
             <a href='produtos.php'> Voltar aos produtos </a>

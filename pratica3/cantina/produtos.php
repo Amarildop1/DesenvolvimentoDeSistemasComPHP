@@ -39,6 +39,7 @@ $produtos = [
                 ?>
                     <div class="produto">
                         <img src="imagens/<?= $row['imagem'] ?>" alt="<?= $row['nome'] ?>">
+
                         <h3> <?= $row['nome'] ?> </h3>
                         <p> R$ <?= number_format($row['preco'], 2, ',', '.') ?> </p>
                         <a href="fazer_pedido.php?id=<?= $row['id'] ?> " class="botao"> Fazer Pedido </a>

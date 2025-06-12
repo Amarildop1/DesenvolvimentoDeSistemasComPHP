@@ -63,6 +63,8 @@ footer {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 .produto {
@@ -74,9 +76,8 @@ footer {
 }
 
 .produto:hover {
-        transition: 0.8s;
+    transition: 0.8s;
     transform: scale(1.1);
-
 }
 
 .produto img {

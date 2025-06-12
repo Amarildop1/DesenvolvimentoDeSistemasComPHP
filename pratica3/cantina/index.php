@@ -24,6 +24,7 @@
             <h2>Serviços</h2>
             <ul>
                 <li>Almoço e jantar no local</li>
+                <li>Pratos tradicionais e exóticos</li>
                 <li>Entrega para toda a cidade</li>
                 <li>Eventos e reservas para grupos</li>
                 <li>Venda de massas artesanais e molhos caseiros</li>

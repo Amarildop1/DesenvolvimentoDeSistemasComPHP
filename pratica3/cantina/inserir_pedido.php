@@ -26,7 +26,7 @@
     </head>
     <body>
         <main style="text-align:center">
-            <h2>Olá <?= htmlspecialchars($nome) ?>, seus pedidos:</h2>
+            <h2>Olá <?= htmlspecialchars($nome) ?>, pedido realizado!</h2>
 
             <ul>
                 <?php
@@ -42,7 +42,7 @@
                 ?>
             </ul>
 
-            <div style="margin-top: 20px;">
+            <div class="grupoBotoes">
                 <a href="index.php" class="botao btnInicio">Início</a>
                 <a href="produtos.php" class="botao btnVerProdutos">Ver mais produtos</a>
             </div>

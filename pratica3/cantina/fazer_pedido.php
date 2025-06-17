@@ -17,7 +17,7 @@
 
     <body>
         <header>
-            <h1>Pedido</h1>
+            <h1> Pedido </h1>
         </header>
 
         <main class="fazerPedido">
@@ -30,7 +30,7 @@
                 <input type="hidden" name="produto_id" value="<?= $produto['id'] ?>">
 
                 <label>Seu nome:</label>
-                <input type="text" name="nome_cliente" required><br>
+                <input type="text" name="nome_cliente" required autofocus><br>
 
                 <label>Quantidade:</label>
                 <input type="number" name="quantidade" value="1" min="1"><br>
@@ -38,7 +38,10 @@
                 <button type="submit" class="botao confirmar-pedido"> Confirmar Pedido </button>
             </form>
 
-            <a href="produtos.php" class="botao btnVerProdutos"> Voltar aos produtos </a>
+            <div style="margin-top: 20px;">
+                <a href="index.php" class="botao btnInicio">Início</a>
+                <a href="produtos.php" class="botao btnVerProdutos">Ver mais produtos</a>
+            </div>
         </main>
 
         <footer>

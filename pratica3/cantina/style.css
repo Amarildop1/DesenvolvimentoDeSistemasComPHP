@@ -42,6 +42,10 @@ main.fazerPedido{
     align-items: center;
 } 
 
+main.fazerPedido form input{
+    margin-bottom: 1.2rem;
+}
+
 section {
     margin-bottom: 30px;
 }
@@ -111,22 +115,31 @@ footer {
 }
 
 button.confirmar-pedido{
-    background-color: var(--color5);
+    background-color: #35a33a;
+    text-decoration: none;
 }
 
 button.confirmar-pedido:hover{
-    background-color: var(--color4);
+    background-color: #2fc236;
     font-weight: 700;
+}
+
+.grupoBotoes{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .botao.btnInicio{
     background-color: var(--color2);
     font-weight: 700;
+    margin: 1rem;
 }
 
 .botao.btnVerProdutos{
     background-color: var(--color3);
     font-weight: 700;
+    margin: 1rem;
 }
 
 form {

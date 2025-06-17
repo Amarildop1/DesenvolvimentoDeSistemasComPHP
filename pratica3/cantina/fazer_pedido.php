@@ -20,7 +20,7 @@
             <h1>Pedido</h1>
         </header>
 
-        <main>
+        <main class="fazerPedido">
             <h2> <?= $produto['nome'] ?> </h2>
             <div class="imagemDoPedido">
                 <img src="imagens/<?= $produto['imagem'] ?>" alt="<?= $produto['nome'] ?>">

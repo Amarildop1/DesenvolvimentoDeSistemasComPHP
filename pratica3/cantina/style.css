@@ -1,3 +1,12 @@
+:root {
+  --color1: #160d18;
+  --color2: #23145b;
+  --color3: #09456c;
+  --color4: #026f6e;
+  --color5: #1ca39e;
+}
+
+
 body {
     font-family: Arial, sans-serif;
     background-color: #fff8f0;
@@ -7,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #474aff;
+    background-color: var(--color4);
     color: white;
     padding: 20px;
     text-align: center;
@@ -26,12 +35,12 @@ nav a:hover {
 }
 
 
-main {
+main.fazerPedido{
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
+} 
 
 section {
     margin-bottom: 30px;
@@ -50,7 +59,7 @@ ul li {
 }
 
 footer {
-    background-color: #474aff;
+    background-color: var(--color4);
     color: white;
     text-align: center;
     padding: 15px;
@@ -78,6 +87,7 @@ footer {
 .produto:hover {
     transition: 0.8s;
     transform: scale(1.1);
+    
 }
 
 .produto img {
@@ -112,6 +122,15 @@ button.confirmar-pedido:hover{
     font-weight: 700;
 }
 
+.botao.btnInicio{
+    background-color: var(--color3);
+    font-weight: 700;
+}
+
+.botao.btnVerProdutos{
+    background-color: var(--color4);
+    font-weight: 700;
+}
 
 form {
     background-color: #fff0e0;
@@ -128,6 +147,21 @@ input, button {
 
 .imagemDoPedido img{
     width: 15rem;
+    border-radius: 10px;
+}
+
+
+.container-home {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.apresentacao, .servicos, .historia {
+    flex: 1 1 300px;
+    background-color: #fff0e0;
+    padding: 20px;
     border-radius: 10px;
 }
 

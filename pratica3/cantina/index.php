@@ -14,7 +14,7 @@
         </nav>
     </header>
 
-    <main>
+<!--     <main>
         <section class="apresentacao">
             <h2>Bem-vindo à nossa cantina!</h2>
             <p>Servimos o melhor da culinária italiana com tradição, sabor e carinho. Confira nossos pratos e produtos artesanais.</p>
@@ -30,7 +30,31 @@
                 <li>Venda de massas artesanais e molhos caseiros</li>
             </ul>
         </section>
-    </main>
+    </main> -->    
+    
+    <section class="apresentacao">
+        <h2>Bem-vindo à nossa cantina!</h2>
+        <p>Servimos o melhor da culinária italiana com tradição, sabor e carinho. Confira nossos pratos e produtos artesanais.</p>
+    </section>
+
+    <main class="container-home">
+    <section class="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Almoço e jantar no local</li>
+            <li>Pratos tradicionais e exóticos</li>
+            <li>Entrega para toda a cidade</li>
+            <li>Eventos e reservas para grupos</li>
+            <li>Venda de massas artesanais e molhos caseiros</li>
+        </ul>
+    </section>
+
+    <section class="historia">
+        <h2>Nossa História</h2>
+        <p>Fundada por uma família italiana em 1980, nossa cantina nasceu da paixão pela gastronomia. Cada prato carrega um pedacinho da Itália.</p>
+    </section>
+</main>
+
 
     <footer>
         <p>&copy; 2025 Cantina Italiana </p>

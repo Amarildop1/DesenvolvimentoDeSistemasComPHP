@@ -46,17 +46,17 @@
 
         <section class="contato">
             <h2> Contato </h2>
-                
-            <form action="" method="post">
+
+            <form action="" method="post" class="formContato">
 
                 <label> Seu nome: </label>
-                <input type="text" name="nome" required autofocus><br>
+                <input type="text" name="nome" required autofocus>
 
-                <label> Email: </label><br>
+                <label> Email: </label>
                 <input type="email" name="email" id="email" required>
 
-                <label for="mensagem"> Mensagem: </label><br>
-                <textarea name="mensagem" id="mensagem" required rows="4" cols="40" placeholder="Digite sua mensagem aqui" ></textarea>
+                <label for="mensagem"> Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" required rows="4" cols="41" placeholder="Digite sua mensagem aqui" ></textarea>
 
                 <button type="submit" class="botao"> Enviar </button>
             </form>
@@ -74,9 +74,9 @@
 
         </section>
 
-
         <footer>
             <p>&copy; 2025 Cantina Italiana </p>
         </footer>
     </body>
 </html>
+

@@ -44,7 +44,7 @@
 
             <div class="grupoBotoes">
                 <a href="index.php" class="botao btnInicio">Início</a>
-                <a href="produtos.php" class="botao btnVerProdutos">Ver mais produtos</a>
+                <a href="produtos.php" class="botao btnVerProdutos">Voltar aos produtos</a>
             </div>
         </main>
     </body>

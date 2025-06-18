@@ -47,7 +47,7 @@ main.fazerPedido form input{
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 ul {
@@ -66,7 +66,7 @@ footer {
     background-color: var(--color4);
     color: white;
     text-align: center;
-    padding: 15px;
+    padding: 12px;
     position: relative;
     bottom: 0;
     width: 100%;
@@ -142,12 +142,27 @@ button.confirmar-pedido:hover{
     margin: 1rem;
 }
 
-form {
+form.inserirPedido{
     background-color: #fff0e0;
     padding: 20px;
     border-radius: 10px;
     width: 300px;
 }
+
+form.formContato{
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+form.formContato input{
+    margin-bottom: 10px;
+}
+
+textarea{
+    margin-top: 10px;
+}
+
 
 input, button {
     width: 100%;
@@ -168,7 +183,7 @@ input, button {
     justify-content: center;
 }
 
-.apresentacao, .servicos, .historia {
+.apresentacao, .servicos, .historia , .contato{
     flex: 1 1 300px;
     background-color: #fff0e0;
     padding: 20px;
@@ -178,3 +193,10 @@ input, button {
 .imagens-home img{
     width: 20rem;
 }
+
+.contato{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+

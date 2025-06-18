@@ -26,7 +26,7 @@
                 <img src="imagens/<?= $produto['imagem'] ?>" alt="<?= $produto['nome'] ?>">
             </div>
 
-            <form action="inserir_pedido.php" method="post">
+            <form action="inserir_pedido.php" method="post" class="inserirPedido">
                 <input type="hidden" name="produto_id" value="<?= $produto['id'] ?>">
 
                 <label>Seu nome:</label>
@@ -38,9 +38,9 @@
                 <button type="submit" class="botao confirmar-pedido"> Confirmar Pedido </button>
             </form>
 
-            <div style="margin-top: 20px;">
+            <div class="grupoBotoes">
                 <a href="index.php" class="botao btnInicio">Início</a>
-                <a href="produtos.php" class="botao btnVerProdutos">Ver mais produtos</a>
+                <a href="produtos.php" class="botao btnVerProdutos">Voltar aos produtos</a>
             </div>
         </main>
 

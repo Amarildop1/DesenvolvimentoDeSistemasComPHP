@@ -175,3 +175,6 @@ input, button {
     border-radius: 10px;
 }
 
+.imagens-home img{
+    width: 20rem;
+}

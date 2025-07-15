@@ -19,8 +19,10 @@ Prática 3: [Cantina Italiana:](https://github.com/Amarildop1/DesenvolvimentoDeS
 [<img src="./pratica3/CapturaDeTela-Inicio.jpeg" width="500" height="400">](https://github.com/Amarildop1/DesenvolvimentoDeSistemasComPHP/tree/main/pratica3)
 
 <br>
+
 [<img src="./pratica3/CapturaDeTela-Produtos.jpeg" width="500" height="400">](https://github.com/Amarildop1/DesenvolvimentoDeSistemasComPHP/tree/main/pratica3)
 
 <br>
+
 [<img src="./pratica3/CapturaDeTela-Pedido.jpeg" width="500" height="400">](https://github.com/Amarildop1/DesenvolvimentoDeSistemasComPHP/tree/main/pratica3)
 
